@@ -19,3 +19,8 @@ jobs:
           echo "开始 gradle 构建"
           chmod +x gradlew
           ./gradlew assembleDebug
+      - name: upload apk
+        uses: actions/upload-artifact@master
+        with:
+          name: flow-debug
+          path: ${{ github.workspace }}/app/build/outputs/apk/debug
