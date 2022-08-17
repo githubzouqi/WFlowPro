@@ -17,4 +17,5 @@ jobs:
       - name: build with gradle
         run: |
           echo "开始 gradle 构建"
+          chmod +x gradlew
           ./gradlew assembleDebug
