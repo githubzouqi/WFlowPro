@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_silence_on"
+        android:text="开启静音"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_silence_off"
+        android:text="取消静音"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_volume"
+        android:text="查询音量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_set"
+        android:text="设置音量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_up"
+        android:text="调大音量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_down"
+        android:text="调小音量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:visibility="visible"
+        android:hint="imxiaoqiXxx"
+        android:id="@+id/tv_data"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="imxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxximxiaoqiXxx"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
